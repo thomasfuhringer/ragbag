@@ -14,3 +14,6 @@ Essential words for the traveller in various languages
 
 ## Hockey Stick Notation
 Alternative notation system for music, linear and still compact.
+
+## Simplingo
+Conlang derived from Italian
