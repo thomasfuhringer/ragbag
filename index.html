@@ -1,38 +1,94 @@
 <!doctype html>
-<html>
-<head>
+<HTML>
+
+<HEAD>
+  <TITLE>Thomas' Ragbag</TITLE>
+
+  <META NAME="Author"        CONTENT="Thomas Führinger">
+  <META NAME="keywords"      CONTENT="StereoGuitar Simplingo">
+  <META NAME="robots"        CONTENT="ALL">
+  <META NAME="revisit-after" CONTENT="30 days">
+<!--
+ modified: 2021-05-20 TF
+-->
+
 <style>
-BODY {
-    font-family: Verdana, Helvetica, Arial, sans-serif;
-    font-size: 12pt;
-    margin-top: 70px;
+
+ body {
+     font-family: Verdana, Helvetica, Arial, sans-serif;
+     font-size: 12pt;
+     height: 100%;
+     min-height: 100%;
+     background: #FAFAFA;
 }
-H1 { text-align: center; color: #36679c; margin-bottom: 50px; }
+ @media only screen and (min-width: 600px) {
+     body {
+         margin: 10 ;
+         min-width: 80px;
+         max-width: 800px;
+         padding: 0.8em;
+         margin: 0 auto;
+    }
+}
+ @media only screen and (max-width: 599px) {
+     body {
+         width: 100%;
+         margin: 0;
+         padding-top: 0.5em;
+    }
+
+}
+ a:link, a:visited, a:active {
+     text-decoration: none;
+     display: inline-block;
+     color: grey;
+}
+ a:hover {
+     color: blue;
+
+}
+
+H1 { text-align: center; margin-bottom: 50px; margin-top: 40px; }
 H2 { text-align: center }
-H3 { text-align: center; margin-bottom: 0px; font-style: italic; }
+H3 { text-align: left; margin-top: 50px; margin-bottom: 30px; color: #36679c;}
 H4 { text-align: center; margin-top: 10px; }
 P {
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
     text-align: justify;
+    line-height: 1.7;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 </style>
-<meta name="google-site-verification" content="aQsxd_TIXpkbqDeL8UitVb_w8KVT3Yb7rY1D72PfmkQ" />
+</HEAD>
 
-<title>Ragbag</title>
-  
-</head>
-<body>
+<BODY BGCOLOR="#FFFFFF">
 
 <h1>Ragbag</h1>
 
 <p>
-Stuff I came up with, experimental
+Experimental stuff I came up with.
+</p>
+
+<H3>Simplingo</H3>
+<p>
+Constructed language based on Italian.
+<a style="text-decoration: none;" href="simplingo">More...</a>
+</p>
+
+<H3>Stereo Guitar</H3>
+
+<img src="stereoguitar/Guitar.jpg" alt="Stereo Guitar" width="120" height="90" >
+<p>
+Electric guitar that outputs a stereo signal. <a style="text-decoration: none;" href="stereoguitar">More...</a>
 </p>
 
 <p style="text-align: right; color: grey; font-style: italic;font-size: 10pt;margin-top: 50px;margin-bottom: 50px;">
-Simplingo <a style="text-decoration: none;" href="simplingo">qua</a>
+Thomas Führinger 
 </p>
-</body>
+</BODY>
 </html>
